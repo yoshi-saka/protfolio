@@ -21,27 +21,25 @@
     <nav class="nav-menu js-toggle-sp-menu-target">
       <ul>
         <li class="menu-item"><a class="link" href="">top</a></li>
-        <li class="menu-item"><a class="link" href="#profile">profile</a></li>
+        <li class="menu-item"><a class="link" href="#about">about</a></li>
         <li class="menu-item"><a class="link" href="#skill">skill</a></li>
         <li class="menu-item"><a class="link" href="#works">works</a></li>
         <li class="menu-item"><a class="link" href="#contact">contact</a></li>
       </ul>
     </nav>
-
   </header>
-
   <main>
     <section class="hero js-float-menu-target">
       <h1 class="hero-title">PORTFOLIO<br>Yoshifumi Sakamoto</h1>
     </section>
 
-    <section id="profile" class="container wow fadeInLeft">
-      <h2 class="title"><span><i class="fas fa-user-alt fa-fw"></i>Profile</span></h2>
-      <div class="profile-body">
-        <div class="profile-img">
-          <img class="image" src="images/mypicture.jpg" alt="">
+    <section id="about" class="container wow fadeInLeft">
+      <h2 class="title"><span><i class="fas fa-user-alt fa-fw"></i>About</span></h2>
+      <div class="about-body">
+        <div class="about-img">
+          <img class="image" src="images/mypic.jpeg" alt="">
         </div>
-        <div class="profile-text">
+        <div class="about-text">
           <div class="info">
             <span class="item">名前</span>坂本 吉史
           </div>
@@ -55,8 +53,10 @@
             <span class="item">趣味</span>ウエイトトレーニング/料理
           </div>
           <div class="info">
-            <span class="item">経歴</span><p>
-            現場経験はまだありませんが、実務にもすぐ対応できるようにフルスクラッチでwebサービスを制作するなど、web制作に必要な技術を身に付けてまいりました。入社後も技術の向上を怠らず、常に主体性を持って実務に臨みます。</p>
+            <span class="item">経歴</span>
+            <p>
+              エンジニアとしてはまだ現場経験はありませんが、独学で実務にも対応できるよう必要な技術を身に付けてまいりました。入社後も日々努力し、何事にも挑戦していきます。
+            </p>
           </div>
         </div>
     </section>
@@ -86,8 +86,13 @@
           <h3 class="panel-title">jQuery</h3>
           <p>動きを付けたりプラグインを導入することができます。</p>
         </div>
-        
- 
+        <div class="panel">
+          <div class="panel-img">
+            <img class="image" src="images/wordpress.jpg" alt="">
+          </div>
+          <h3 class="panel-title">WordPress</h3>
+          <p>基本的なカスタム方法を学習しました。</p>
+        </div>
         <div class="panel">
           <div class="panel-img">
             <img class="image" src="images/php.png" alt="">
@@ -102,84 +107,85 @@
           <h3 class="panel-title">My SQL</h3>
           <p>データベースの構築やSQL文によるデータの操作を行えます。</p>
         </div>
-        </div>
+      </div>
     </section>
 
     <section id="works" class="container wow slideInDown">
       <h2 class="title"><span><i class="fas fa-building fa-fw"></i>works</span></h2>
       <div class="works-content wow slideInDown">
-          <div class="works-movie">
-            <video class="movie" src="movies/mv01.mov" controls></video>
+        <div class="works-movie">
+          <video class="movie" src="movies/mv01.mov" controls></video>
+        </div>
+        <div class="works-text">
+          <div class="info">
+            <span class="item">作品名</span>ケーキ屋
           </div>
-          <div class="works-text">
-            <div class="info">
-              <span class="item">作品名</span>ケーキ屋
-            </div>
-            <div class="info">
-              <span class="item">使用言語</span>HTML/CSS（Sass）/Javascript/jQuery
-            </div>
-            <div class="info">
-              <span class="item">制作時間</span>15時間
-            </div>
-            <div class="info">
-              <span class="item">概要</span>gulpを使用しSassファイルのコンパイルや、CSSファイル・画像の圧縮を行いまいした。レスポンシブ対応の静的サイトです。
-            </div>
-            <button class="btn"><a href="https://yoshi-saka.github.io/sweet/" target="_blank">公開</a></button>
-            <button class="btn"><a href="https://github.com/yoshi-saka/sweet">Github</a></button>
+          <div class="info">
+            <span class="item">使用言語</span>HTML/CSS（Sass）/Javascript/jQuery
           </div>
+          <div class="info">
+            <span class="item">制作時間</span>15時間
+          </div>
+          <div class="info">
+            <span class="item">概要</span>gulpを使用しSassファイルのコンパイルや、CSSファイル・画像の圧縮を行いまいした。レスポンシブ対応の静的サイトです。
+          </div>
+          <button class="btn"><a href="https://yoshi-saka.github.io/sweet/" target="_blank">公開</a></button>
+          <button class="btn"><a href="https://github.com/yoshi-saka/sweet">Github</a></button>
+        </div>
       </div>
 
       <div class="works-content wow slideInDown">
-          <div class="works-movie">
-            <video class="movie" src="movies/mv02.mov" controls></video>
+        <div class="works-movie">
+          <video class="movie" src="movies/mv02.mov" controls></video>
+        </div>
+        <div class="works-text">
+          <div class="info">
+            <span class="item">作品名</span>Work Out
           </div>
-          <div class="works-text">
-            <div class="info">
-              <span class="item">作品名</span>Work Out
-            </div>
-            <div class="info">
-              <span class="item">使用言語</span>HTML/CSS/Javascript/jQuery/PHP
-            </div>
-            <div class="info">
-              <span class="item">制作時間</span>90時間
-            </div>
-            <div class="info">
-              <span class="item">概要</span>ユーザー登録/ログイン/ログアウト/プロフィール編集/退会/トレーニング記録/トレーニング編集/検索/連絡掲示板/ページネーション<br>
-              フレームワークを使用せず、生のPHPで作成することにより学習の理解を深めました。
-            </div>
-            <button class="btn"><a href="">Github</a></button>
+          <div class="info">
+            <span class="item">使用言語</span>HTML/CSS/Javascript/jQuery/PHP
           </div>
+          <div class="info">
+            <span class="item">制作時間</span>90時間
+          </div>
+          <div class="info">
+            <span class="item">概要</span>ユーザー登録/ログイン/ログアウト/プロフィール編集/退会/トレーニング記録/トレーニング編集/検索/連絡掲示板/ページネーション<br>
+            フレームワークを使用せず、生のPHPで作成することにより学習の理解を深めました。
+          </div>
+          <button class="btn"><a href="https://github.com/yoshi-saka/Work-Out">Github</a></button>
+        </div>
       </div>
 
       <div class="works-content wow slideInDown">
-          <div class="works-movie">
-            <video class="movie" src="movies/mv03.mov" controls></video>
+        <div class="works-movie">
+          <video class="movie" src="movies/mv03.mov" controls></video>
+        </div>
+        <div class="works-text">
+          <div class="info">
+            <span class="item">作品名</span>POKEMON
           </div>
-          <div class="works-text">
-            <div class="info">
-              <span class="item">作品名</span>POKEMON
-            </div>
-            <div class="info">
-              <span class="item">使用言語</span>HTML/CSS/PHP
-            </div>
-            <div class="info">
-              <span class="item">制作時間</span>25時間
-            </div>
-            <div class="info">
-              <span class="item">概要</span>PHPオブジェクト指向を使ったアウトプットです。ポケモンのようなゲームを作りたいと思い制作しました。簡易的にレスポンシブデザインにも対応してます。 
-            </div>
-            <button class="btn"><a href="https://pokemon-op.herokuapp.com/" target="_blank">公開</a></button>
-            <button class="btn"><a href="https://github.com/yoshi-saka/pokemon">Github</a></button>
+          <div class="info">
+            <span class="item">使用言語</span>HTML/CSS/PHP
           </div>
+          <div class="info">
+            <span class="item">制作時間</span>25時間
+          </div>
+          <div class="info">
+            <span class="item">概要</span>PHPオブジェクト指向を使ったアウトプットです。ポケモンのようなゲームを作りたいと思い制作しました。簡易的にレスポンシブデザインにも対応してます。
+          </div>
+          <button class="btn"><a href="https://pokemon-op.herokuapp.com/" target="_blank">公開</a></button>
+          <button class="btn"><a href="https://github.com/yoshi-saka/pokemon">Github</a></button>
+        </div>
       </div>
     </section>
 
     <section id="contact" class="container wow slideInUp">
       <h2 class="title"><span><i class="fab fa-twitter fa-fw"></i>contact</span></h2>
       <div class="contact-link">
-      <p>現在休職活動中です。お問合せは、SNSでよろしくお願いいたします。</p>
+        <p>現在休職活動中です。お問合せはSNS、メールアドレスの方までよろしくお願いいたします。</p>
         <a class="link" href="https://twitter.com/akasa_517" class="">
-        <img src="images/twitter.png" alt=""></a>
+          <img src="images/twitter.png" alt=""></a>
+        <p>zerotenhundred@gmail.com</p>
       </div>
     </section>
   </main>
@@ -193,39 +199,38 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
   <script>
     $(function () {
-// フロートヘッダーメニュー
-var targetHeight = $('.js-float-menu-target').height();
-$(window).on('scroll', function() {
-  $('.js-float-menu').toggleClass('float-active', $(this).scrollTop() > targetHeight);
-});
+      // フロートヘッダーメニュー
+      var targetHeight = $('.js-float-menu-target').height();
+      $(window).on('scroll', function () {
+        $('.js-float-menu').toggleClass('float-active', $(this).scrollTop() > targetHeight);
+      });
 
-// SPメニュー
-$('.js-toggle-sp-menu').on('click', function () {
-  $(this).toggleClass('active');
-  $('.js-toggle-sp-menu-target').toggleClass('active');
-});
-$('.menu-item').on('click', function () {
-    $('.js-toggle-sp-menu-target').toggleClass('active');
-  });
+      // SPメニュー
+      $('.js-toggle-sp-menu').on('click', function () {
+        $(this).toggleClass('active');
+        $('.js-toggle-sp-menu-target').toggleClass('active');
+      });
+      $('.menu-item').on('click', function () {
+        $('.js-toggle-sp-menu-target').toggleClass('active');
+      });
+      // wow
+      var wow = new WOW(
+        {
+          boxClass: 'wow',      // animated element css class (default is wow)
+          animateClass: 'animated', // animation css class (default is animated)
+          offset: 300,          // distance to the element when triggering the animation (default is 0)
+          mobile: true,       // trigger animations on mobile devices (default is true)
+          live: true,       // act on asynchronously loaded content (default is true)
+          callback: function (box) {
+            // the callback is fired every time an animation is started
+            // the argument that is passed in is the DOM node being animated
+          },
+          scrollContainer: null // optional scroll container selector, otherwise use window
+        }
+      );
+      wow.init();
 
-  //wow fadeIn
-  var wow = new WOW(
-  {
-    boxClass: 'wow',      // animated element css class (default is wow)
-    animateClass: 'animated', // animation css class (default is animated)
-    offset: 300,          // distance to the element when triggering the animation (default is 0)
-    mobile: true,       // trigger animations on mobile devices (default is true)
-    live: true,       // act on asynchronously loaded content (default is true)
-    callback: function (box) {
-      // the callback is fired every time an animation is started
-      // the argument that is passed in is the DOM node being animated
-    },
-    scrollContainer: null // optional scroll container selector, otherwise use window
-  }
-);
-wow.init();
-
-});
+    });
   </script>
 </body>
 
